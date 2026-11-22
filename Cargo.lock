@@ -1068,17 +1068,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ci-check"
-version = "0.1.0"
-dependencies = [
- "maki-agent",
- "maki-lua",
- "maki-storage",
- "serde_json",
- "smol",
-]
-
-[[package]]
 name = "cipher"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2988,6 +2977,17 @@ dependencies = [
  "serde_json",
  "thiserror 2.0.21",
  "tracing",
+]
+
+[[package]]
+name = "maki-keenable"
+version = "0.1.0"
+dependencies = [
+ "maki-agent",
+ "maki-lua",
+ "maki-storage",
+ "serde_json",
+ "smol",
 ]
 
 [[package]]
