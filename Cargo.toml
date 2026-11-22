@@ -1,0 +1,13 @@
+[package]
+name = "maki-keenable"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+publish = false
+
+[dev-dependencies]
+maki-agent = { git = "https://github.com/tontinton/maki", rev = "801f98cc07b27e0d7108f699f30f473944d410b4" }
+maki-lua = { git = "https://github.com/tontinton/maki", rev = "801f98cc07b27e0d7108f699f30f473944d410b4" }
+maki-storage = { git = "https://github.com/tontinton/maki", rev = "801f98cc07b27e0d7108f699f30f473944d410b4" }
+serde_json = "1"
+smol = "2"
